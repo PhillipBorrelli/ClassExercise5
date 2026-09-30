@@ -51,7 +51,7 @@ public class ShipMove : MonoBehaviour
             carRender.color = Color.yellow;
             TestParticle.Play();
 
-            Debug.Log("Package picked up!");
+            Debug.Log("Enemy Hit By Player!");
 
             Destroy(other.gameObject);
         }
